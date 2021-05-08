@@ -32,11 +32,15 @@ Only 16 colours are present in the final image. It's PSNR value is 35.38
 
 ![image](https://user-images.githubusercontent.com/62425457/117535241-7c862c80-b012-11eb-9f18-3be96db672c3.png)
 
+Differences are clearly visible in both the images. 
+
 2. PCA
 
 Only 150 prinicpal components are used. It's PSNR value is 36.65
 
 ![image](https://user-images.githubusercontent.com/62425457/117535309-d981e280-b012-11eb-917f-a6425c4abb6a.png)
+
+Minor artifacts are clearly visible in the resultant image. 
 
 3. Deep Leaening
 
