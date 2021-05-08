@@ -25,7 +25,7 @@ python3 compress.py -i path/to/image/dir -ckpt path/to/trained/model --reconstru
 Results for an input image:
 
 <p align="center">
-![image](https://user-images.githubusercontent.com/62425457/117535228-68422f80-b012-11eb-9dbb-5995cf91002e.png)
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/62425457/117535228-68422f80-b012-11eb-9dbb-5995cf91002e.png">
 </p>
 
 
