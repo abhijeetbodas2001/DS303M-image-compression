@@ -26,28 +26,11 @@ Results for an input image:
 
 ![image](https://user-images.githubusercontent.com/62425457/117535228-68422f80-b012-11eb-9dbb-5995cf91002e.png)
 
-1. K-means
 
-Only 16 colours are present in the final image. It's PSNR value is 35.38
 
-![image](https://user-images.githubusercontent.com/62425457/117535241-7c862c80-b012-11eb-9f18-3be96db672c3.png)
-
-Differences are clearly visible in both the images. 
-
-2. PCA
-
-Only 150 prinicpal components are used. It's PSNR value is 36.65
-
-![image](https://user-images.githubusercontent.com/62425457/117535309-d981e280-b012-11eb-917f-a6425c4abb6a.png)
-
-Minor artifacts are clearly visible in the resultant image. 
-
-3. Deep Leaening
-
-The compressed size is just 12 KB and it gives a PSNR value of 34.26
-
-![image](https://user-images.githubusercontent.com/62425457/117535371-164dd980-b013-11eb-8975-49bea4400d80.png)
-
-The difference in the input image and Resultant image is subtle for Human eyes in Case of Deep Learning Methods. If observed closely around the bottom left part of image, the difference is visible.
-
+|K-means|PCA|Deep learning|
+|-|-|-|
+|Only 16 colours are present in the final image. It's PSNR value is 35.38|Only 150 prinicpal components are used. It's PSNR value is 36.65|The compressed size is just 12 KB and it gives a PSNR value of 34.26|
+|<img src="./PCA/output.jpg">|<img src="./K-Means/output.jpg">|<img src="./DL/output.png">|
+|Differences are clearly visible in both the images.|Minor artifacts are clearly visible in the resultant image.|The difference in the input image and Resultant image is subtle for Human eyes in Case of Deep Learning Methods. If observed closely around the bottom left part of image, the difference is visible.|
 
